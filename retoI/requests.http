@@ -1,0 +1,26 @@
+###
+POST http://localhost:3000/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Gabi",
+    "age": 30,
+    "email": "gabi@gmail.com"
+}
+
+
+###
+GET http://localhost:3000/api/users HTTP/1.1
+
+
+###
+GET http://localhost:3000/api/users/6185b3d96d5d61df8440b85c HTTP/1.1
+
+
+###
+DELETE http://localhost:3000/api/users/6185b3d96d5d61df8440b85c HTTP/1.1
+
+
+###
+PUT http://localhost:3000/api/users/6185b3d96d5d61df8440b85c HTTP/1.1
+Content-Type: application/json
